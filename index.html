@@ -1,0 +1,1238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seo-main-project</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- ===================== Header ========================== -->
+    <header>
+        <div class="navbar-wrapper">
+            <div class="header">
+                <div class="header-container w-container">
+                    <div class="header-wrapper">
+                        <div class="header-left">
+                            <a href="#" class="header-link">
+                                <div>Privacy Policy</div>
+                            </a>
+                            <a href="#" class="header-link w-inline-block">
+                                <div> Why SeoGuru?</div>
+                            </a>
+                        </div>
+                        <div class="header-right">
+                            <div class="header-social-block">
+                                <a href="https://www.facebook.com/" class="header-social-link w-inline-block">
+                                    <div class="social-embed w-embed">
+                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M10.8347 16.6151C14.1232 16.205 16.668 13.3997 16.668 10C16.668 6.3181 13.6832 3.33333 10.0013 3.33333C6.3194 3.33333 3.33464 6.3181 3.33464 10C3.33464 13.3997 5.87938 16.205 9.16799 16.6151V11.6667H7.5013V10H9.16799V8.6215C9.16799 7.50712 9.28399 7.10302 9.5019 6.69561C9.71974 6.2882 10.0395 5.96847 10.4469 5.75058C10.7658 5.58003 11.1614 5.4771 11.8527 5.43295C12.1271 5.41542 12.4822 5.43777 12.918 5.5V7.08333H12.5013C11.7369 7.08333 11.4215 7.11943 11.2329 7.22027C11.116 7.28282 11.0342 7.36465 10.9716 7.48161C10.8707 7.67015 10.8347 7.85711 10.8347 8.6215V10H12.918L12.5013 11.6667H10.8347V16.6151ZM10.0013 18.3333C5.39893 18.3333 1.66797 14.6023 1.66797 10C1.66797 5.39762 5.39893 1.66667 10.0013 1.66667C14.6037 1.66667 18.3347 5.39762 18.3347 10C18.3347 14.6023 14.6037 18.3333 10.0013 18.3333Z"fill="currentColor"></path>
+                                        </svg>
+                                    </div>
+                                </a>
+                                <a href="https://twitter.com/" class="header-social-link w-inline-block">
+                                    <div class="social-embed w-embed">
+                                        <svg width="19" height="19" viewBox="0 0 19 19" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M11.7261 4.23943C10.5177 4.23943 9.5327 5.20808 9.51116 6.41386L9.48969 7.61703C9.48519 7.87012 9.27634 8.07163 9.02326 8.06712C9.00523 8.06682 8.98728 8.06544 8.96948 8.063L7.77721 7.90037C6.20855 7.68648 4.7051 6.96446 3.26279 5.76268C2.80601 8.29087 3.69766 10.0428 5.8468 11.3939L7.1813 12.2329C7.39561 12.3677 7.46012 12.6506 7.32539 12.8649C7.29451 12.914 7.2546 12.9568 7.20776 12.991L5.99191 13.8793C6.71481 13.9248 7.40205 13.8931 7.97162 13.7794C11.5753 13.0602 13.9717 10.3482 13.9717 5.87495C13.9717 5.50974 13.1984 4.23943 11.7261 4.23943ZM7.98361 6.38661C8.01997 4.3508 9.68158 2.71165 11.7261 2.71165C12.7675 2.71165 13.7096 3.13697 14.3881 3.82338C14.9316 3.81929 15.3939 3.95668 16.4267 3.33012C16.1714 4.58318 16.0447 5.12705 15.4995 5.87495C15.4995 11.7122 11.9114 14.5511 8.2706 15.2776C5.77444 15.7758 2.14426 14.9579 1.10449 13.871C1.6342 13.8303 3.78877 13.5986 5.03366 12.6874C3.98025 11.9918 -0.212407 9.52409 2.54244 2.89221C3.83607 4.40216 5.1475 5.42996 6.47674 5.97561C7.36087 6.33855 7.57805 6.3313 7.98361 6.38661Z"fill="currentColor"></path>
+                                        </svg>
+                                    </div>
+                                </a>
+                                <a href="https://www.skype.com/" class="header-social-link w-inline-block">
+                                    <div class="social-embed w-embed">
+                                        <svg width="21" height="20" viewBox="0 0 21 20" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M11.1708 15.3527C11.5238 15.2981 11.8851 15.3583 12.2013 15.5246C12.5853 15.7266 13.0127 15.8333 13.459 15.8333C14.9548 15.8333 16.1673 14.6207 16.1673 13.125C16.1673 12.6787 16.0605 12.2513 15.8586 11.8673C15.6923 11.5511 15.632 11.1898 15.6867 10.8368C15.7292 10.5622 15.7507 10.2827 15.7507 10C15.7507 7.00846 13.3255 4.58333 10.334 4.58333C10.0513 4.58333 9.77184 4.60485 9.49717 4.64734C9.14408 4.70195 8.78283 4.64167 8.46667 4.47539C8.08266 4.27346 7.65533 4.16667 7.20898 4.16667C5.71321 4.16667 4.50065 5.37923 4.50065 6.875C4.50065 7.32135 4.60743 7.74867 4.80938 8.13268C4.97565 8.44892 5.03593 8.81017 4.98132 9.16317C4.93883 9.43783 4.91732 9.71725 4.91732 10C4.91732 12.9916 7.34244 15.4167 10.334 15.4167C10.6168 15.4167 10.8961 15.3952 11.1708 15.3527ZM10.334 17.0833C6.42197 17.0833 3.25065 13.912 3.25065 10C3.25065 9.62875 3.2792 9.26425 3.33424 8.90842C3.01477 8.3009 2.83398 7.60906 2.83398 6.875C2.83398 4.45876 4.79273 2.5 7.20898 2.5C7.94304 2.5 8.63488 2.68078 9.24242 3.00026C9.59817 2.94523 9.96275 2.91667 10.334 2.91667C14.246 2.91667 17.4173 6.08798 17.4173 10C17.4173 10.3712 17.3888 10.7358 17.3338 11.0916C17.6532 11.6991 17.834 12.3909 17.834 13.125C17.834 15.5412 15.8753 17.5 13.459 17.5C12.7249 17.5 12.0331 17.3193 11.4256 16.9998C11.0698 17.0547 10.7052 17.0833 10.334 17.0833ZM10.3781 14.1661C8.04348 14.1661 7.00065 13.0177 7.00065 12.156C7.00065 11.7121 7.32621 11.404 7.77421 11.404C8.77408 11.404 8.51295 12.8413 10.3781 12.8413C11.3304 12.8413 11.8579 12.322 11.8579 11.7904C11.8579 11.4707 11.7018 11.1173 11.0722 10.9612L8.99692 10.4419C7.32563 10.0217 7.02212 9.11533 7.02212 8.26527C7.02212 6.49717 8.68242 5.83333 10.2423 5.83333C11.6763 5.83333 13.3719 6.63005 13.3719 7.68963C13.3719 8.14457 12.9727 8.40917 12.5288 8.40917C11.6763 8.40917 11.8335 7.22716 10.1123 7.22716C9.25983 7.22716 8.78225 7.61246 8.78225 8.16546C8.78225 8.7185 9.45133 8.89542 10.0339 9.02833L11.5643 9.36892C13.2419 9.74558 13.6673 10.7303 13.6673 11.6576C13.6673 13.0943 12.5636 14.1667 10.3468 14.1667L10.3781 14.1661Z"fill="currentColor"></path>
+                                        </svg>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="dropdown">
+                                <button class="btn-small  dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">ENG</button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item w-dropdown-link" href="#">English</a></li>
+                                    <li><a class="dropdown-item w-dropdown-link" href="#">Spanish</a></li>
+                                    <li><a class="dropdown-item w-dropdown-link" href="#">French</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <nav class="nav-container navbar navbar-expand-lg ">
+                <div class="container d-flex justify-content-between">
+                    <a class="navbar-brand" href="#">
+                        <img src="img/Logo-header.svg" alt="">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                        <ul class="navbar-nav  mb-2 mb-lg-0 ">
+                            <li class="nav-item  nav-links">
+                                <a class="nav-link active " aria-current="page" href="#"
+                                    style="color: #319d77;">Home</a>
+                            </li>
+                            <div class="dropdown nav-item nav-links">
+                                <a class=" nav-link  " href="#" role="button" id="dropdownMenuLink"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Services
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                    <li><a class="dropdown-item " href="#"><img class="items"
+                                                src="img/64e9f1d415d6f195cb869867_Dropdown Icon 1.svg" alt="">
+                                            SEO Analytics
+                                        </a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="#"><img class="items"src="img/64e9f1d4862892bff8818246_Dropdown Icon 2.svg" alt="">
+                                            PPC & Paid Media
+                                        </a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="#"><img class="items"src="img/64e9f1d410713e77f61774dd_Dropdown Icon 3.svg" alt="">
+                                            Paid Social Media
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <li class="nav-item nav-links">
+                                <a class="nav-link" href="#">About</a>
+                            </li>
+                            <li class="nav-item nav-links">
+                                <a class="nav-link" href="#">Pricing</a>
+                            </li>
+
+                            <li class="nav-item nav-links">
+                                <a class="nav-link" href="#">Blog</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="appoint">
+                        <a href="tel:91 8009-988-130" class="appoint-call"><img src="img/64e2d081b109859bb1a8bdac_Phone icon.svg" alt="" class="contact">+918009-988-130</a>
+                        <button type="button" class="btn  btn-lg button">Large button</button>
+                    </div>
+                </div>
+            </nav>
+    </header>
+    <!-- ======================== Hero-section ========================== -->
+    <section class="hero-section">
+        <div class="w-layout-blockcontainer main-container w-container">
+            <div class="hero-container">
+                <div class="row">
+                    <div class="col6">
+                        <div class="hero-text-wrapper">
+                            <div class="hero-text-header">
+                                <img src="img/64d71b1304a893ff7e2513f7_Mask Group-2.webp" alt="member images" class="hero-text-header-image">
+                                <img src="img/64d71b13d7c1e698e05372a8_Mask Group.webp" alt="member images" class="hero-text-header-image">
+                                <img src="img/64d71b130d288365018a4d1e_Mask Group-1.webp" alt="member images" class="hero-text-header-image">
+                                <div class="_15px-spacer"></div>
+                                <div class="h6 dark-font-color">We’re a SEO Agency based in Texas</div>
+                            </div>
+                            <h1 class="h1">Grow Online with the ROI-Driven SEO Agency</h1>
+                            <p class="body-large">Our team of expert SEO professionals is dedicated to boosting your online presence and targeted traffic.</p>
+                            <div class="hero-btn">
+                                <div class="btn-wrapper">
+                                    <button type="button" class="btn btn-lg primary-button button">Free Website Audit</button>
+                                    <div class="body-mini dark-font-color">Free Audit, No Hidden Charges</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col6">
+                    <div class="hero-image-wrapper">
+                        <img src="img/64e85688e8cf2659047000ba_Hero Image 2.webp" alt="" class="hero-image-bg">
+                        <img src="img/64e856893124c9b0ac8f5646_Hero Image 1-p-1080.webp" alt=""
+                            class="hero-image-absolute">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =============================== offer-section ============================= -->
+    <section class="offer-section">
+        <div class="w-layout-blockcontainer main-container w-container">
+            <div class="offer-container">
+                <div class="offer-heading-wrapper fade-in-100ms">
+                    <h2 class="h2">What Do We Offer You as an SEO Agency?</h2>
+                    <p class="body-medium">We are a leading SEO agency with a passion for helping businesses thrive in the digital landscape.</p>
+                </div>
+                <div class="offer-blocks-wrapper fade-in-200ms">
+                    <div class="offer-block purple-light">
+                        <div class="offer-image-wrapper">
+                            <img src="img/64d736435b9d53be4eaa8480_1.svg" class="offer-image">
+                        </div>
+                        <div class="offer-text-wrapper">
+                            <h3 class="h5">Keyword Research</h3>
+                            <p class="body-small dark-font-color">Email Marketing – Upside lets you create brilliant campaigns of all kind of customers.</p>
+                            <a href="#" class="secondary-button w-inline-block">
+                                <div class="d-flex">
+                                    <div class="find-out">
+                                        <a href="#">
+                                            <h6 class="arrow-mr">Find Out More</h6>
+                                            <h6 class="arrow-mr">Find Out More</h6>
+                                        </a>
+                                    </div>
+                                    <img src="https://uploads-ssl.webflow.com/64d1105c4d56246119187a1b/64d73772cfd44ca4dd23e3cb_Arrow.svg" class="arrow">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="offer-block pink-light">
+                        <div class="offer-image-wrapper">
+                            <img src="img/64d73643d8b2c979aa7aeb49_2 9153.svg" loading="lazy" alt="On-Page Optimization"
+                                class="offer-image">
+                        </div>
+                        <div class="offer-text-wrapper">
+                            <h3 class="h5">On-Page Optimization</h3>
+                            <p class="body-small dark-font-color"> Email Marketing – Upside lets you create brilliant campaigns of all kind of customers.</p>
+                            <a href="#" class="secondary-button w-inline-block">
+                                <div class="d-flex">
+                                    <div class="find-out">
+                                        <a href="#">
+                                            <h6 class="arrow-mr">Find Out More</h6>
+                                            <h6 class="arrow-mr">Find Out More</h6>
+                                        </a>
+                                    </div>
+                                    <img src="https://uploads-ssl.webflow.com/64d1105c4d56246119187a1b/64d73772cfd44ca4dd23e3cb_Arrow.svg" class="arrow">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="offer-block green-light">
+                        <div class="offer-image-wrapper">
+                            <img src="img/64d73643391ca911def48b92_4 999.svg" loading="lazy" alt="Content Marketing"
+                                class="offer-image">
+                        </div>
+                        <div class="offer-text-wrapper">
+                            <h3 class="h5">Content Marketing</h3>
+                            <p class="body-small dark-font-color">Email Marketing – Upside lets you create brilliant campaigns of all kind of customers.</p>
+                            <a href="#" class="secondary-button w-inline-block">
+                                <div class="d-flex">
+                                    <div class="find-out">
+                                        <a href="#">
+                                            <h6 class="arrow-mr">Find Out More</h6>
+                                            <h6 class="arrow-mr">Find Out More</h6>
+                                        </a>
+                                    </div>
+                                    <img src="https://uploads-ssl.webflow.com/64d1105c4d56246119187a1b/64d73772cfd44ca4dd23e3cb_Arrow.svg" class="arrow">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="offer-block yellow-light">
+                        <div class="offer-image-wrapper">
+                            <img src="img/64d736447a2a36cb647f5e0f_3 00000.svg" loading="lazy" alt="SEO Reporting"
+                                class="offer-image">
+                        </div>
+                        <div class="offer-text-wrapper">
+                            <h3 class="h5">SEO Reporting</h3>
+                            <p class="body-small dark-font-color">Email Marketing – Upside lets you create brilliant
+                                campaigns of all kind of customers.</p>
+                            <a href="#" class="secondary-button w-inline-block">
+                                <div class="d-flex">
+                                    <div class="find-out">
+                                        <a href="#">
+                                            <h6 class="arrow-mr">Find Out More</h6>
+                                            <h6 class="arrow-mr">Find Out More</h6>
+        
+                                        </a>
+                                    </div>
+                                    <img src="https://uploads-ssl.webflow.com/64d1105c4d56246119187a1b/64d73772cfd44ca4dd23e3cb_Arrow.svg"
+                                        loading="lazy" alt="" class="arrow">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="link w-inline-block">
+                    <div class="button-1">See Our All Services</div>
+                    <div class="animated-line"></div>
+                </a>
+            </div>
+    </section>
+    <!-- =================================== 3 ===================================== -->
+
+
+    <section class="case-study-section">
+        <div class="w-layout-blockcontainer main-container w-container">
+            <div class="case-study-container">
+                <div class="case-study-review-wrapper"><img
+                        src="https://uploads-ssl.webflow.com/64d1105c4d56246119187a1b/64d73fddd7c1e698e071e7c4_Reviewer%20Image.webp"
+                        loading="lazy" alt="" class="reviewer-image">
+                    <h3 class="quote">“They have a remarkable understanding of SEO strategies and how to apply them
+                        effectively.”</h3>
+                    <div class="reviewer-details-wrapper">
+                        <div class="h6 dark-font-color">Linda Miller</div>
+                        <div class="body-small body-color">COO of Paytime</div>
+                    </div>
+                </div>
+                <div class="case-study-stats-wrapper"><img
+                        src="https://uploads-ssl.webflow.com/64d1105c4d56246119187a1b/64d741212dcded8ab36b7000_Paytime%20Logo.svg"
+                        loading="lazy" alt="" class="case-study-company-logo">
+                    <div class="case-study-stats-blocks-wrapper">
+                        <div class="case-study-stats-block">
+                            <h4 class="h3">10:1</h4>
+                            <div class="body-small body-color">ROI (ad click to funded app)</div>
+                        </div>
+                        <div class="case-study-stats-block big">
+                            <h4 class="h3">20:3</h4>
+                            <div class="body-small body-color">Reduction in cost to acquire a member</div>
+                        </div>
+                        <div class="case-study-stats-block">
+                            <h4 class="h3">17%</h4>
+                            <div class="body-small body-color">Conversion rate</div>
+                        </div>
+                        <div class="case-study-stats-block big">
+                            <h4 class="h3">5.6%</h4>
+                            <div class="body-small body-color">Organic Traffic</div>
+                        </div>
+                    </div><a href="/about" class="secondary-button w-inline-block">
+                        <div class="d-flex">
+                            <div class="find-out">
+                                <a href="#">
+                                    <h6 class="arrow-mr">Find Out More</h6>
+                                    <h6 class="arrow-mr">Find Out More</h6>
+
+                                </a>
+                            </div>
+                            <img src="https://uploads-ssl.webflow.com/64d1105c4d56246119187a1b/64d73772cfd44ca4dd23e3cb_Arrow.svg"
+                                loading="lazy" alt="" class="arrow">
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ===========business=================== -->
+    <section class="business">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <div class="business-img">
+                        <img src="img/sec-4 lady.webp" alt="" style="width: 485px;">
+                        <div class="img-sticker">
+                            <p>Monthly Traffic</p>
+                            <h1>116.2 K</h1>
+                            <h6> <img src="img/pink arrow.svg" alt="">+50.5%</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="business-data">
+                        <h3>Customized SEO Plans for Your Business</h3>
+                        <p>Transparent communication is crucial in any successful partnership. A reliable SEO agency
+                            will keep clients informed.</p>
+                            <div class="d-flex">
+                                <div class="find-out">
+                                    <a href="#">
+                                        <h6 class="arrow-mr">Find Out More</h6>
+                                        <h6 class="arrow-mr">Find Out More</h6>
+    
+                                    </a>
+                                </div>
+                                <img src="https://uploads-ssl.webflow.com/64d1105c4d56246119187a1b/64d73772cfd44ca4dd23e3cb_Arrow.svg"
+                                    loading="lazy" alt="" class="arrow">
+                            </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- ===============mobile====================== -->
+    <section class="mobile">
+        <div class="container">
+            <div class="row d-flex">
+                <div class="col-6">
+                    <h3 class="h2">Mobile First Approach for Conversion</h3>
+                    <p>A reliable SEO agency will keep clients informed about the progress of their campaigns, share
+                        regular reports.</p>
+                        <div class="d-flex">
+                            <div class="find-out">
+                                <a href="#">
+                                    <h6 class="arrow-mr">Find Out More</h6>
+                                    <h6 class="arrow-mr">Find Out More</h6>
+
+                                </a>
+                            </div>
+                            <img src="https://uploads-ssl.webflow.com/64d1105c4d56246119187a1b/64d73772cfd44ca4dd23e3cb_Arrow.svg"
+                                loading="lazy" alt="" class="arrow">
+                        </div>
+                </div>
+                <div class="col-6">
+                    <div class="mobile-img">
+                        <img src="img/mobile.webp" alt="" style="height: 829px; width:   485px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =====================social============================= -->
+    <section class="social">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <div class="social-img">
+                        <img src="img/6th secti.png" alt="" style="width: 485px;">
+                    </div>
+
+                </div>
+                <div class="col-6">
+                    <div class="social-data">
+                        <h3 class="heading">Social Media Integration for SEO Synergy</h3>
+                        <p class="sub-heading">Keep clients informed about the progress of their campaigns, share
+                            regular reports, and be readily available to answer.</p>
+                            <div class="d-flex">
+                                <div class="find-out">
+                                    <a href="#">
+                                        <h6 class="arrow-mr">Find Out More</h6>
+                                        <h6 class="arrow-mr">Find Out More</h6>
+    
+                                    </a>
+                                </div>
+                                <img src="https://uploads-ssl.webflow.com/64d1105c4d56246119187a1b/64d73772cfd44ca4dd23e3cb_Arrow.svg"
+                                    loading="lazy" alt="" class="arrow">
+                            </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- -------------list-group----------------- -->
+    <section class="list-group-sec">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+
+                    <div class="list-group-data">
+                        <h3 class="heading">Let's Grow Your Business with Us</h3>
+                    </div>
+                    <div class="list-group  " id="list-tab" role="tablist">
+                        <a class="list-group-item list-group-item-action  border-0" id="list-home-list"
+                            data-bs-toggle="list" href="#list-home" role="tab" aria-controls="list-home">
+                            <h5>Online
+                                Startups</h5>
+                        </a>
+                        <a class="list-group-item list-group-item-action border-0" id="list-profile-list"
+                            data-bs-toggle="list" href="#list-profile" role="tab" aria-controls="list-profile">
+                            <h5>Real
+                                Estates</h5>
+                        </a>
+                        <a class="list-group-item list-group-item-action border-0" id="list-messages-list"
+                            data-bs-toggle="list" href="#list-messages" role="tab" aria-controls="list-messages">
+                            <h5>Media
+                                Agencies</h5>
+                        </a>
+                        <a class="list-group-item list-group-item-action border-0" id="list-settings-list"
+                            data-bs-toggle="list" href="#list-settings" role="tab" aria-controls="list-settings">
+                            <h5>SaaS
+                                Business</h5>
+                        </a>
+                        <a class="list-group-item list-group-item-action border-0" id="list-business-list"
+                            data-bs-toggle="list" href="#list-business" role="tab" aria-controls="list-business">
+                            <h5>HR
+                                Business</h5>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="list-home" role="tabpanel"
+                            aria-labelledby="list-home-list"><img src="img/li1.webp" alt=""
+                                style="height: 300px; width: 525px;">
+                            <h4 class="list-heading">Online Startups</h4>
+                            <p>Each business is unique, and one-size-fits-all approaches rarely deliver exceptional
+                                results. The best SEO agencies take the time to understand their clients' specific
+                                goals.</p>
+                            <a href="#" class="button">Free Website Audit</a>
+                            <div class="mini-dark">Free Audit, No Hidden Charges</div>
+
+                        </div>
+                        <div class="tab-pane fade" id="list-profile" role="tabpanel"
+                            aria-labelledby="list-profile-list"><img src="img/li1.webp" alt=""
+                                style="height: 300px; width: 525px;">
+                            <h4 class="list-heading">Real Estates</h4>
+                            <p>Each business is unique, and one-size-fits-all approaches rarely deliver exceptional
+                                results. The best SEO agencies take the time to understand their clients' specific
+                                goals.</p>
+                            <a href="#" class="button">Free Website Audit</a>
+                            <div class="mini-dark">Free Audit, No Hidden Charges</div>
+                        </div>
+                        <div class="tab-pane fade" id="list-messages" role="tabpanel"
+                            aria-labelledby="list-messages-list"><img src="img/li1.webp" alt=""
+                                style="height: 300px; width: 525px;">
+                            <h4 class="list-heading">Media Agencies</h4>
+                            <p>Each business is unique, and one-size-fits-all approaches rarely deliver exceptional
+                                results. The best SEO agencies take the time to understand their clients' specific
+                                goals.</p>
+                            <a href="#" class="button">Free Website Audit</a>
+                            <div class="mini-dark">Free Audit, No Hidden Charges</div>
+                        </div>
+                        <div class="tab-pane fade" id="list-settings" role="tabpanel"
+                            aria-labelledby="list-settings-list"><img src="img/li1.webp" alt=""
+                                style="height: 300px; width: 525px;">
+                            <h4 class="list-heading">SaaS Business</h4>
+                            <p>Each business is unique, and one-size-fits-all approaches rarely deliver exceptional
+                                results. The best SEO agencies take the time to understand their clients' specific
+                                goals.</p>
+                            <a href="#" class="button">Free Website Audit</a>
+                            <div class="mini-dark">Free Audit, No Hidden Charges</div>
+
+                        </div>
+                        <div class="tab-pane fade" id="list-business" role="tabpanel"
+                            aria-labelledby="list-settings-list"><img src="img/li1.webp" alt=""
+                                style="height: 300px; width: 525px;">
+                            <h4 class="list-heading">HR Business</h4>
+                            <p>Each business is unique, and one-size-fits-all approaches rarely deliver exceptional
+                                results. The best SEO agencies take the time to understand their clients' specific
+                                goals.</p>
+                            <a href="#" class="button">Free Website Audit</a>
+                            <div class="mini-dark">Free Audit, No Hidden Charges</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ==========================client====================== -->
+    <section class="client">
+        <div class="w-layout-blockcontainer main-container w-container">
+            <div class="client-heading">
+                <h2>Over 100+ Clients Trust SeoGuru</h2>
+            </div>
+            <marquee behavior="" direction="">
+                <div class="brand-logo d-flex">
+                    <img src="img/c1-1.webp" alt="">
+                    <img src="img/cl-2.webp" alt="">
+                    <img src="img/cl-3.webp" alt="">
+                    <img src="img/cl-4.webp" alt="">
+                    <img src="img/cl-5.webp" alt="">
+                    <img src="img/cl-6.webp" alt="">
+                    <img src="img/cl-7.webp" alt="">
+                    <img src="img/c1-1.webp" alt="">
+                    <img src="img/cl-2.webp" alt="">
+                    <img src="img/cl-3.webp" alt="">
+                    <img src="img/cl-4.webp" alt="">
+                    <img src="img/cl-5.webp" alt="">
+                    <img src="img/cl-6.webp" alt="">
+                    <img src="img/cl-7.webp" alt="">
+                </div>
+            </marquee>
+            <div class="client-tab w-tabs">
+                <div id="carouselExampleFade" class="carousel slide carousel-fade">
+                    <div class="carousel-indicators client-tab-menu w-tab-menu">
+                        <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0"
+                            class="active client-tab-link w-inline-block w-tab-link w--current" aria-current="true"
+                            aria-label="Slide 1">
+                            <div class="h6 align">
+                                Increased ROI by 50%
+
+                            </div>
+
+                        </button>
+                        <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="1"
+                            aria-label="Slide 2">
+                            <div class="h6 align">
+                                Amazing Online Campaign
+
+                            </div>
+
+                        </button>
+                        <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="2"
+                            aria-label="Slide 3">
+                            <div class="h6 align">
+                                Google Ads Revenue
+
+                            </div>
+
+                        </button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="card">
+                                <div class="row g-0">
+                                    <div class="col-md-8">
+                                        <div class="card-body client-tab-text-wrapper">
+                                            <img src="img/64db15362868255d11a1624c_Paytime Client.svg" alt=""
+                                                class="client-company-logo">
+                                            <div class="quote">“SeoGuru has been an integral part of our digital
+                                                marketing ideas and strategy.”</div>
+                                            <div class="client-details-wrapper">
+                                                <div class="h6 dark-font-color">
+                                                    Linda Miller
+                                                </div>
+                                                <div class="body-small body-color">
+                                                    COO of Paytime
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img src="img/64db14932e6bf957fa2822c7_Client Image.0.333.webp"
+                                            class="img-fluid client-tab-image" alt="...">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item ">
+                            <div class="card">
+                                <div class="row g-0">
+                                    <div class="col-md-8">
+                                        <div class="card-body client-tab-text-wrapper">
+                                            <img src="img/64db15362868255d11a1624c_Paytime Client.svg" alt=""
+                                                class="client-company-logo">
+                                            <div class="quote">“SeoGuru has been an integral part of our digital
+                                                marketing ideas and strategy.”</div>
+                                            <div class="client-details-wrapper">
+                                                <div class="h6 dark-font-color">
+                                                    Linda Miller
+                                                </div>
+                                                <div class="body-small body-color">
+                                                    COO of Paytime
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img src="img/8th2.webp" class="img-fluid client-tab-image" alt="...">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item ">
+                            <div class="card">
+                                <div class="row g-0">
+                                    <div class="col-md-8">
+                                        <div class="card-body client-tab-text-wrapper">
+                                            <img src="img/64db15362868255d11a1624c_Paytime Client.svg" alt=""
+                                                class="client-company-logo">
+                                            <div class="quote">“SeoGuru has been an integral part of our digital
+                                                marketing
+                                                ideas and strategy.”</div>
+                                            <div class="client-details-wrapper">
+                                                <div class="h6 dark-font-color">
+                                                    Linda Miller
+                                                </div>
+                                                <div class="body-small body-color">
+                                                    COO of Paytime
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img src="img/8th3.webp"
+                                            class="img-fluid client-tab-image" alt="...">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ===================why-should===================== -->
+    <section class="why-should">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <h5 class="heading">Why Should You Hire SeoGuru?</h5>
+                    <div class="why-should-img">
+                        <img src="img/why-should-img.webp" alt="" style="height: 830px; width: 590px;">
+                        <div class="why-should-sticker">
+                            <img src="img/sticker-img.png" alt="">
+                            <h1>25.2%</h1>
+                            <p>Sales Increased</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="why-should-content">
+                        <p class="para">We understand that in today's competitive online world, a <b>strong SEO
+                                strategy</b> is
+                            crucial for businesses to succeed. Our <b>data-driven approach</b> and in-depth industry
+                            knowledge enable. </p>
+                        <!-- card -->
+                        <div class="card " style="background-color: rgb(255, 231, 238);">
+                            <div class="card-body why-block-title">
+                                <img src="img/card-img-1.svg" class="" alt="...">
+                                <h4 class="h6 ">Dedicated Growth Manager</h4>
+                            </div>
+                            <p class="card-text">We identify the most relevant and high-impact keywords that your target
+                                audience uses to search for products or services.</p>
+                        </div>
+
+                        <div class="card " style="background-color: rgb(238, 227, 255);">
+                            <div class="card-body why-block-title">
+                                <img src="img/card-img-2.svg" class="card-img-top d-flex" alt="...">
+                                <h4 class="h6 ">Data-Backed Marketing</h4>
+                            </div>
+                            <p class="card-text">Our SEO experts optimize every aspect of your website, from meta tags
+                                and URLs to content and internal linking.</p>
+                        </div>
+
+                        <div class="card " style="background-color: rgb(255, 249, 227);">
+                            <div class="card-body why-block-title">
+                                <img src="img/card-img-3.svg" class="card-img-top d-flex" alt="...">
+                                <h4 class="h6 ">ROI-Based Approach</h4>
+                            </div>
+                            <p class="card-text">Our content specialists create engaging and relevant content that not
+                                only resonates with target audience but also attracts natural links.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- ============================== -->
+
+    <section id="pricing" class="pricing-section">
+        <div class="w-layout-blockcontainer main-container w-container">
+            <div class="pricing-container">
+                <h3 class="h2">Membership</h3>
+                <p class="body-medium">Become a member today and Grow with SeoGuru</p>
+                <div class="pricing-tab-wrapper">
+                    <div data-current="Monthly" data-easing="ease" data-duration-in="300" data-duration-out="100"
+                        class="pricing-tabs w-tabs">
+                        <div class="pricing-tab-menu w-tab-menu" role="tablist"><a data-w-tab="Monthly"
+                                data-w-id="5452837c-cbef-53c8-c653-aa820dc68a43"
+                                class="pricing-tab-left-link w-inline-block w-tab-link w--current"
+                                id="w-tabs-2-data-w-tab-0" href="#w-tabs-2-data-w-pane-0" role="tab"
+                                aria-controls="w-tabs-2-data-w-pane-0" aria-selected="true">
+                                <div class="pricing-link-text">Pay Monthly</div>
+                            </a>
+                            <div class="rounded-pill">
+                                <div class="round"></div>
+                            </div>
+                            <a data-w-tab="Yearly" data-w-id="5452837c-cbef-53c8-c653-aa820dc68a46"
+                                class="pricing-tab-right-link w-inline-block w-tab-link" tabindex="-1"
+                                id="w-tabs-2-data-w-tab-1" href="#w-tabs-2-data-w-pane-1" role="tab"
+                                aria-controls="w-tabs-2-data-w-pane-1" aria-selected="false">
+                                <div class="pricing-link-text">Pay Yearly</div>
+                            </a>
+                        </div>
+                        <div class="pricing-tab-content w-tab-content">
+                            <div data-w-tab="Monthly" class="pricing-tab-panel w-tab-pane w--tab-active"
+                                id="w-tabs-2-data-w-pane-0" role="tabpanel" aria-labelledby="w-tabs-2-data-w-tab-0">
+                                <div class="pricing-card-wrapper">
+                                    <div class="pricing-card">
+                                        <div class="pricing-card-top-row">
+                                            <div class="pricing-price-title-wrapper">
+                                                <div class="pricing-price-title">
+                                                    <h3 class="h6">Basic Package</h3>
+                                                </div>
+                                                <div class="pricing-price-div">
+                                                    <div class="price">$148/m</div>
+                                                </div>
+                                            </div><img alt="pricing icon" loading="lazy"
+                                                src="https://uploads-ssl.webflow.com/64d1105c4d56246119187a1b/64e0b3122bb95f0ebea7e64d_basic%20package.svg"
+                                                class="price-block-icon">
+                                        </div>
+                                        <div class="pricing-list-div">
+                                            <div class="pricing-list-wrappper">
+                                                <div class="point-wrapper no-max-width">
+                                                    <div class="checkmark"><img alt="check icon" loading="lazy"
+                                                            src="https://uploads-ssl.webflow.com/64d1105c4d56246119187a1b/64e0b5716c35b16f4e5efe19_check%20icon.svg"
+                                                            class="pricing-check-icon"></div>
+                                                    <div class="body-small body-color">Unlimited Data</div>
+                                                </div>
+                                                <div class="point-wrapper no-max-width">
+                                                    <div class="checkmark"><img alt="check icon" loading="lazy"
+                                                            src="https://uploads-ssl.webflow.com/64d1105c4d56246119187a1b/64e0b5716c35b16f4e5efe19_check%20icon.svg"
+                                                            class="pricing-check-icon"></div>
+                                                    <div class="body-small body-color">20 Asset Delivery</div>
+                                                </div>
+                                                <div class="point-wrapper no-max-width">
+                                                    <div class="checkmark"><img alt="check icon" loading="lazy"
+                                                            src="https://uploads-ssl.webflow.com/64d1105c4d56246119187a1b/64e0b5716c35b16f4e5efe19_check%20icon.svg"
+                                                            class="pricing-check-icon"></div>
+                                                    <div class="body-small body-color">20 Asset Delivery</div>
+                                                </div>
+                                                <div class="point-wrapper no-max-width">
+                                                    <div class="checkmark"><img alt="check icon" loading="lazy"
+                                                            src="https://uploads-ssl.webflow.com/64d1105c4d56246119187a1b/64e0b5716c35b16f4e5efe19_check%20icon.svg"
+                                                            class="pricing-check-icon"></div>
+                                                    <div class="body-small body-color">Unlimited Bandwidth</div>
+                                                </div>
+                                                <div class="point-wrapper no-max-width">
+                                                    <div class="checkmark"><img alt="check icon" loading="lazy"
+                                                            src="https://uploads-ssl.webflow.com/64d1105c4d56246119187a1b/64e0b5716c35b16f4e5efe19_check%20icon.svg"
+                                                            class="pricing-check-icon"></div>
+                                                    <div class="body-small body-color">Support System</div>
+                                                </div>
+                                                <div class="point-wrapper no-max-width">
+                                                    <div class="checkmark"><img alt="check icon" loading="lazy"
+                                                            src="https://uploads-ssl.webflow.com/64d1105c4d56246119187a1b/64e0b5716c35b16f4e5efe19_check%20icon.svg"
+                                                            class="pricing-check-icon"></div>
+                                                    <div class="body-small body-color">Unlimited Data</div>
+                                                </div>
+                                                <div class="point-wrapper no-max-width">
+                                                    <div class="checkmark"><img alt="check icon" loading="lazy"
+                                                            src="https://uploads-ssl.webflow.com/64d1105c4d56246119187a1b/64e0b5716c35b16f4e5efe19_check%20icon.svg"
+                                                            class="pricing-check-icon"></div>
+                                                    <div class="body-small body-color">120+ Message all Operator</div>
+                                                </div>
+                                                <div class="point-wrapper no-max-width">
+                                                    <div class="checkmark"><img alt="check icon" loading="lazy"
+                                                            src="https://uploads-ssl.webflow.com/64d1105c4d56246119187a1b/64e0b5716c35b16f4e5efe19_check%20icon.svg"
+                                                            class="pricing-check-icon"></div>
+                                                    <div class="body-small body-color">20 Asset Delivery</div>
+                                                </div>
+                                                <div class="point-wrapper no-max-width">
+                                                    <div class="checkmark"><img alt="check icon" loading="lazy"
+                                                            src="https://uploads-ssl.webflow.com/64d1105c4d56246119187a1b/64e0b5716c35b16f4e5efe19_check%20icon.svg"
+                                                            class="pricing-check-icon"></div>
+                                                    <div class="body-small body-color">Unlimited Data</div>
+                                                </div>
+                                                <div class="point-wrapper no-max-width">
+                                                    <div class="checkmark"><img alt="check icon" loading="lazy"
+                                                            src="https://uploads-ssl.webflow.com/64d1105c4d56246119187a1b/64e0b5716c35b16f4e5efe19_check%20icon.svg"
+                                                            class="pricing-check-icon"></div>
+                                                    <div class="body-small body-color">24x7 Support System</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="pricing-card">
+                                        <div class="pricing-card-top-row">
+                                            <div class="pricing-price-title-wrapper">
+                                                <div class="pricing-price-title">
+                                                    <h3 class="h6">Advanced Package</h3>
+                                                </div>
+                                                <div class="pricing-price-div">
+                                                    <div class="price">$248/m</div>
+                                                </div>
+                                            </div><img alt="pricing icon" loading="lazy"
+                                                src="https://uploads-ssl.webflow.com/64d1105c4d56246119187a1b/64e0b68a2bb95f0ebeaacb7e_icon-1.svg"
+                                                class="price-block-icon">
+                                        </div>
+                                        <div class="pricing-list-div">
+                                            <div class="pricing-list-wrappper">
+                                                <div class="point-wrapper no-max-width">
+                                                    <div class="checkmark"><img alt="check icon" loading="lazy"
+                                                            src="https://uploads-ssl.webflow.com/64d1105c4d56246119187a1b/64e0b5716c35b16f4e5efe19_check%20icon.svg"
+                                                            class="pricing-check-icon"></div>
+                                                    <div class="body-small body-color">Unlimited Data</div>
+                                                </div>
+                                                <div class="point-wrapper no-max-width">
+                                                    <div class="checkmark"><img alt="check icon" loading="lazy"
+                                                            src="https://uploads-ssl.webflow.com/64d1105c4d56246119187a1b/64e0b5716c35b16f4e5efe19_check%20icon.svg"
+                                                            class="pricing-check-icon"></div>
+                                                    <div class="body-small body-color">20 Asset Delivery</div>
+                                                </div>
+                                                <div class="point-wrapper no-max-width">
+                                                    <div class="checkmark"><img alt="check icon" loading="lazy"
+                                                            src="https://uploads-ssl.webflow.com/64d1105c4d56246119187a1b/64e0b5716c35b16f4e5efe19_check%20icon.svg"
+                                                            class="pricing-check-icon"></div>
+                                                    <div class="body-small body-color">20 Asset Delivery</div>
+                                                </div>
+                                                <div class="point-wrapper no-max-width">
+                                                    <div class="checkmark"><img alt="check icon" loading="lazy"
+                                                            src="https://uploads-ssl.webflow.com/64d1105c4d56246119187a1b/64e0b5716c35b16f4e5efe19_check%20icon.svg"
+                                                            class="pricing-check-icon"></div>
+                                                    <div class="body-small body-color">Unlimited Bandwidth</div>
+                                                </div>
+                                                <div class="point-wrapper no-max-width">
+                                                    <div class="checkmark"><img alt="check icon" loading="lazy"
+                                                            src="https://uploads-ssl.webflow.com/64d1105c4d56246119187a1b/64e0b5716c35b16f4e5efe19_check%20icon.svg"
+                                                            class="pricing-check-icon"></div>
+                                                    <div class="body-small body-color">Support System</div>
+                                                </div>
+                                                <div class="point-wrapper no-max-width">
+                                                    <div class="checkmark"><img alt="check icon" loading="lazy"
+                                                            src="https://uploads-ssl.webflow.com/64d1105c4d56246119187a1b/64e0b5716c35b16f4e5efe19_check%20icon.svg"
+                                                            class="pricing-check-icon"></div>
+                                                    <div class="body-small body-color">Unlimited Data</div>
+                                                </div>
+                                                <div class="point-wrapper no-max-width">
+                                                    <div class="checkmark"><img alt="check icon" loading="lazy"
+                                                            src="https://uploads-ssl.webflow.com/64d1105c4d56246119187a1b/64e0b5716c35b16f4e5efe19_check%20icon.svg"
+                                                            class="pricing-check-icon"></div>
+                                                    <div class="body-small body-color">120+ Message all Operator</div>
+                                                </div>
+                                                <div class="point-wrapper no-max-width">
+                                                    <div class="checkmark"><img alt="check icon" loading="lazy"
+                                                            src="https://uploads-ssl.webflow.com/64d1105c4d56246119187a1b/64e0b5716c35b16f4e5efe19_check%20icon.svg"
+                                                            class="pricing-check-icon"></div>
+                                                    <div class="body-small body-color">20 Asset Delivery</div>
+                                                </div>
+                                                <div class="point-wrapper no-max-width">
+                                                    <div class="checkmark"><img alt="check icon" loading="lazy"
+                                                            src="https://uploads-ssl.webflow.com/64d1105c4d56246119187a1b/64e0b5716c35b16f4e5efe19_check%20icon.svg"
+                                                            class="pricing-check-icon"></div>
+                                                    <div class="body-small body-color">Unlimited Data</div>
+                                                </div>
+                                                <div class="point-wrapper no-max-width">
+                                                    <div class="checkmark"><img alt="check icon" loading="lazy"
+                                                            src="https://uploads-ssl.webflow.com/64d1105c4d56246119187a1b/64e0b5716c35b16f4e5efe19_check%20icon.svg"
+                                                            class="pricing-check-icon"></div>
+                                                    <div class="body-small body-color">24x7 Support System</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="pricing-card">
+                                        <div class="pricing-card-top-row">
+                                            <div class="pricing-price-title-wrapper">
+                                                <div class="pricing-price-title">
+                                                    <h3 class="h6">Custom Package</h3>
+                                                </div>
+                                                <div class="pricing-price-div">
+                                                    <div class="price">$380/m</div>
+                                                </div>
+                                            </div><img alt="pricing icon" loading="lazy"
+                                                src="https://uploads-ssl.webflow.com/64d1105c4d56246119187a1b/64e0b68a504cdbdee41493b7_icon.svg"
+                                                class="price-block-icon">
+                                        </div>
+                                        <div class="pricing-list-div">
+                                            <p class="body-small">The income it deserves. <span
+                                                    class="dark-font-color">SEO, SEM, Social Media,</span> and the best
+                                                <span class="dark-font-color">Web Design</span> go hand in hand.
+                                            </p>
+                                            <div class="customa-package-title-wrapper">
+                                                <h4 class="h3 mt-5 mb-5">Let's Meet on a Skype Video Call.</h4>
+                                            </div><a href="/contact" class="primary-button w-button">Schedule a
+                                                Meeting</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =============================== -->
+    <section class="common">
+        <div class="container">
+            <div class="h6 text-white text-center">Frequently Asked Questions</div>
+            <h3 class="h2 text-white text-center">Common Questions</h3>
+            <div class="accordion accordion-flush " id="accordionExample">
+                <div class="accordion-item mb-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed text-white" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            <div class="h6"> What factors determine the pricing of SEO services? </div>
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent=".accordion-collapse ">
+                        <div class="accordion-body">
+                            The pricing of SEO services can be influenced by various factors, including the scope of the
+                            project, the competitiveness of the industry, the size of the website, the number of target
+                            keywords, the level of on-page and off-page optimization required, and the overall goals of
+                            the SEO campaign. </div>
+                    </div>
+                </div>
+                <div class="accordion-item mb-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed text-white" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <div class="h6">Is there a standard pricing model for SEO services?</div>
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent=".accordion-collapse ">
+                        <div class="accordion-body">
+                            The pricing of SEO services can be influenced by various factors, including the scope of the
+                            project, the competitiveness of the industry, the size of the website, the number of target
+                            keywords, the level of on-page and off-page optimization required, and the overall goals of
+                            the SEO campaign. </div>
+                    </div>
+                </div>
+                <div class="accordion-item mb-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed text-white" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <div class="h6">What is included in the typical SEO agency pricing package?</div>
+                        </button>
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent=".accordion-collapse ">
+                        <div class="accordion-body">
+                            The pricing of SEO services can be influenced by various factors, including the scope of the
+                            project, the competitiveness of the industry, the size of the website, the number of target
+                            keywords, the level of on-page and off-page optimization required, and the overall goals of
+                            the SEO campaign. </div>
+                    </div>
+                </div>
+                <div class="accordion-item mb-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed text-white" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            <div class="h6">How do agencies calculate the cost of SEO services?</div>
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent=".accordion-collapse ">
+                        <div class="accordion-body">
+                            The pricing of SEO services can be influenced by various factors, including the scope of the
+                            project, the competitiveness of the industry, the size of the website, the number of target
+                            keywords, the level of on-page and off-page optimization required, and the overall goals of
+                            the SEO campaign. </div>
+                    </div>
+                </div>
+                <div class="accordion-item mb-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed text-white" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            <div class="h6">Do SEO agencies guarantee specific rankings on search engines?</div>
+                        </button>
+                    </h2>
+                    <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent=".accordion-collapse ">
+                        <div class="accordion-body">
+                            The pricing of SEO services can be influenced by various factors, including the scope of the
+                            project, the competitiveness of the industry, the size of the website, the number of target
+                            keywords, the level of on-page and off-page optimization required, and the overall goals of
+                            the SEO campaign. </div>
+                    </div>
+                </div>
+                <div class="accordion-item mb-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed text-white" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                            <div class="h6">What are the payment terms for SEO services?</div>
+                        </button>
+                    </h2>
+                    <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent=".accordion-collapse ">
+                        <div class="accordion-body">
+                            The pricing of SEO services can be influenced by various factors, including the scope of the
+                            project, the competitiveness of the industry, the size of the website, the number of target
+                            keywords, the level of on-page and off-page optimization required, and the overall goals of
+                            the SEO campaign. </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ============================== -->
+   
+    <!-- =============================case-study========================================== -->
+    <section class="case-study">
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <div class="text-content">
+                        <div class="case-text-wrap">
+                            <h3 class="heading">Case Study & Insights</h3>
+                            <p class="sub-heading">Our content specialists will create engaging and relevant content
+                                that
+                                not only resonates.</p>
+                                <div class="d-flex">
+                                    <div class="find-out">
+                                        <a href="#">
+                                            <h6 class="arrow-mr">Find Out More</h6>
+                                            <h6 class="arrow-mr">Find Out More</h6>
+        
+                                        </a>
+                                    </div>
+                                    <img src="https://uploads-ssl.webflow.com/64d1105c4d56246119187a1b/64d73772cfd44ca4dd23e3cb_Arrow.svg"
+                                        loading="lazy" alt="" class="arrow">
+                                </div>
+    
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-8">
+                    <div class="case-study-wrap">
+                        <div class="card-wrap">
+                            <div class="row">
+                                <div class="col-6">
+                                    <img src="img/stick-1.webp" alt="" style="height: 280px; width: 360px;"
+                                        class="d-flex">
+                                </div>
+                                <div class="col-6">
+                                    <div class="card" style="width: 350px">
+                                        <div class="card-body">
+                                            <a href="#"
+                                                style="background-color: hsla(263.5714285714286, 100.00%, 94.51%, 1.00);">Tips
+                                                and Tricks</a>
+                                            <h1>Let’s Create Stunning Websites with Webflow</h1>
+                                            <hr style="margin-top: 30px;">
+                                            <div class="small-text-wrap">
+                                                <span class="small-text"> Aug 5, 2022 </span>
+                                                <span class="dot"></span>
+                                                <span class="small-text">By John Miller</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 2 -->
+                    <div class="case-study-wrap">
+                        <div class="card-wrap">
+                            <div class="row">
+                                <div class="col-6">
+                                    <img src="img/stick-2.webp" alt="" style="height: 280px; width: 360px;"
+                                        class="d-flex">
+                                </div>
+                                <div class="col-6">
+                                    <div class="card" style="width: 350px">
+                                        <div class="card-body">
+                                            <a href="#" style="background-color: rgb(255, 249, 227)">Articles</a>
+                                            <h1>Boost Rankings, Traffic, and Dominate Search</h1>
+                                            <hr style="margin-top: 30px;">
+                                            <div class="small-text-wrap">
+                                                <span class="small-text"> Aug 5, 2022 </span>
+                                                <span class="dot"></span>
+                                                <span class="small-text">By John Miller</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 3 -->
+                    <div class="case-study-wrap">
+                        <div class="card-wrap">
+                            <div class="row">
+                                <div class="col-6">
+                                    <img src="img/stick-3.webp" alt="" style="height: 280px; width: 360px;"
+                                        class="d-flex">
+                                </div>
+                                <div class="col-6">
+                                    <div class="card" style="width: 350px">
+                                        <div class="card-body">
+                                            <a href="#" style="background-color: rgb(255, 249, 227)">Articles</a>
+                                            <a href="#" style="background-color:rgb(255, 231, 238);">Case Study</a>
+                                            <h1>Supercharge Online Presence with SEO</h1>
+                                            <hr style="margin-top: 30px;">
+                                            <div class="small-text-wrap">
+                                                <span class="small-text"> Aug 5, 2022 </span>
+                                                <span class="dot"></span>
+                                                <span class="small-text">By John Miller</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- =========================audit=================================================== -->
+    <section class="audit">
+        <div class="container">
+            <div class="heading">Get a Free SEO Audit!</div>
+            <div class="sub-heading">Let us increase the search engine rank and traffic of your website</div>
+            <div class="audit-form-wrap">
+                <form action="">
+                        <input type="text" name="name" placeholder="Name" class="form-filed input-field w-input" style="width: 296px;">
+                        
+                        <input type="text" name="name" placeholder="Company Name" class="form-filed input-field w-input" style="width: 296px;">
+                    <div class="form-row">
+                        <input type="tel" name="name" placeholder="Phone Number" class="form-filed input-field w-input" style="width: 296px;">
+                        <input type="email" name="name" placeholder="Email" class="form-filed input-field w-input" style="width: 296px;">
+                    </div>
+                    <div class="third-row">
+                        <input type="text" name="name" placeholder="Website URL" class="form-filed input-field w-input" style="width: 617px ;">
+                    </div>
+                    <div class="third-row">
+                        <input type="submit" class="button big" style="width: 617px; height: 60px;">
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </section>
+      <!-- =======================footer========================== -->
+      <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <div class="footer-menu-wrap">
+
+                        <div class="footer-title">
+                            <h5>Services</h5>
+                        </div>
+                        <h6>Strategy & Data Analysis</h6>
+                        <h6>PPC & Paid Media</h6>
+                        <h6>Content Marketing</h6>
+                        <h6>Email Lead Generation</h6>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="footer-menu-wrap">
+
+                        <div class="footer-title">
+                            <h5>Quick Links</h5>
+                        </div>
+                        <h6>About Us</h6>
+                        <h6>Service</h6>
+                        <h6>Contact</h6>
+                        <h6>Blog</h6>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="footer-menu-wrap">
+
+                        <div class="footer-title">
+                            <h5>Other</h5>
+                        </div>
+                        <h6>License</h6>
+                        <h6>Changelog</h6>
+                        <h6>Privacy policy</h6>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="footer-menu-wrap">
+
+                        <div class="footer-title">
+                            <h5>Subscribe to our newsletter</h5>
+                        </div>
+                        <div class="form-wrap">
+                            <form action="">
+                                <input type="email" class="form-style styles" placeholder="Your@workemail.com">
+                                <a href=""><img src="img/whiet-arrow-11111.svg" alt="" class="arrow-wrap"></a>
+
+
+                            </form>
+                        </div>
+                        <div class="social-icon">
+                            <a href="" class="footer-icon"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="" class="footer-icon"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="" class="footer-icon"><svg width="21" height="20" viewBox="0 0 21 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M11.1708 15.3527C11.5238 15.2981 11.8851 15.3583 12.2013 15.5246C12.5853 15.7266 13.0127 15.8333 13.459 15.8333C14.9548 15.8333 16.1673 14.6207 16.1673 13.125C16.1673 12.6787 16.0605 12.2513 15.8586 11.8673C15.6923 11.5511 15.632 11.1898 15.6867 10.8368C15.7292 10.5622 15.7507 10.2827 15.7507 10C15.7507 7.00846 13.3255 4.58333 10.334 4.58333C10.0513 4.58333 9.77184 4.60485 9.49717 4.64734C9.14408 4.70195 8.78283 4.64167 8.46667 4.47539C8.08266 4.27346 7.65533 4.16667 7.20898 4.16667C5.71321 4.16667 4.50065 5.37923 4.50065 6.875C4.50065 7.32135 4.60743 7.74867 4.80938 8.13268C4.97565 8.44892 5.03593 8.81017 4.98132 9.16317C4.93883 9.43783 4.91732 9.71725 4.91732 10C4.91732 12.9916 7.34244 15.4167 10.334 15.4167C10.6168 15.4167 10.8961 15.3952 11.1708 15.3527ZM10.334 17.0833C6.42197 17.0833 3.25065 13.912 3.25065 10C3.25065 9.62875 3.2792 9.26425 3.33424 8.90842C3.01477 8.3009 2.83398 7.60906 2.83398 6.875C2.83398 4.45876 4.79273 2.5 7.20898 2.5C7.94304 2.5 8.63488 2.68078 9.24242 3.00026C9.59817 2.94523 9.96275 2.91667 10.334 2.91667C14.246 2.91667 17.4173 6.08798 17.4173 10C17.4173 10.3712 17.3888 10.7358 17.3338 11.0916C17.6532 11.6991 17.834 12.3909 17.834 13.125C17.834 15.5412 15.8753 17.5 13.459 17.5C12.7249 17.5 12.0331 17.3193 11.4256 16.9998C11.0698 17.0547 10.7052 17.0833 10.334 17.0833ZM10.3781 14.1661C8.04348 14.1661 7.00065 13.0177 7.00065 12.156C7.00065 11.7121 7.32621 11.404 7.77421 11.404C8.77408 11.404 8.51295 12.8413 10.3781 12.8413C11.3304 12.8413 11.8579 12.322 11.8579 11.7904C11.8579 11.4707 11.7018 11.1173 11.0722 10.9612L8.99692 10.4419C7.32563 10.0217 7.02212 9.11533 7.02212 8.26527C7.02212 6.49717 8.68242 5.83333 10.2423 5.83333C11.6763 5.83333 13.3719 6.63005 13.3719 7.68963C13.3719 8.14457 12.9727 8.40917 12.5288 8.40917C11.6763 8.40917 11.8335 7.22716 10.1123 7.22716C9.25983 7.22716 8.78225 7.61246 8.78225 8.16546C8.78225 8.7185 9.45133 8.89542 10.0339 9.02833L11.5643 9.36892C13.2419 9.74558 13.6673 10.7303 13.6673 11.6576C13.6673 13.0943 12.5636 14.1667 10.3468 14.1667L10.3781 14.1661Z"
+                                        fill="currentColor"></path>
+                                </svg></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom-wrap">
+                <div class="footer-img-left">
+                    <img src="img/64e3d64ee948e3b18af2a9e0_Footer logos.svg" alt="">
+                </div>
+                <div class="footer-btm-right">
+                    <p>© 2023 SeoGuru. Powered by Webflow.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
